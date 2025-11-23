@@ -1,4 +1,8 @@
 import { useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Header from "./components/header";
+import Home from "./pages/home";
+import Pros from "./pages/pros";
 
 //Checks for system theme
 function App() {
@@ -10,7 +14,15 @@ function App() {
     }
   }, []);
 
-  return <></>;
+  return (
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/pros" element={<Pros />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
