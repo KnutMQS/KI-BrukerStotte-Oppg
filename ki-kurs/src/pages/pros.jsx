@@ -5,7 +5,7 @@ function Pros() {
         <h1>Fordeler med KI</h1>
       </div>
       <div className="space-y-7">
-        <ul className="max-w-fit mx-auto border rounded-4xl bg-indigo-950 border-indigo-600 p-4">
+        <ul className="max-w-fit mx-auto border-2 rounded-4xl bg-indigo-950 border-indigo-600 p-4">
           <li className="space-y-3">
             <h3 className="flex justify-center items-center text-2xl underline">
               Automasjon og effekivitet:
@@ -15,7 +15,7 @@ function Pros() {
             </span>
           </li>
         </ul>
-        <ul className="max-w-fit mx-auto border rounded-4xl bg-indigo-950 border-indigo-600 p-4">
+        <ul className="max-w-fit mx-auto border-2 rounded-4xl bg-indigo-950 border-indigo-600 p-4">
           <li className="space-y-3">
             <h3 className="flex justify-center items-center text-2xl underline">
               Redusert Menneskelige Feil:
@@ -25,7 +25,7 @@ function Pros() {
             </span>
           </li>
         </ul>
-        <ul className="max-w-fit mx-auto border rounded-4xl bg-indigo-950 border-indigo-600 p-4">
+        <ul className="max-w-fit mx-auto border-2 rounded-4xl bg-indigo-950 border-indigo-600 p-4">
           <li className="space-y-3">
             <h3 className="flex justify-center items-center text-2xl underline">
               Tilgjengelig 24/7:
@@ -33,7 +33,7 @@ function Pros() {
             <span>KI systemer kan jobber kontinuerlig uten pauser.</span>
           </li>
         </ul>
-        <ul className="max-w-fit mx-auto border rounded-4xl bg-indigo-950 border-indigo-600 p-4">
+        <ul className="max-w-fit mx-auto border-2 rounded-4xl bg-indigo-950 border-indigo-600 p-4">
           <li className="space-y-3">
             <h3 className="flex justify-center items-center text-2xl underline">
               Data Analyse:
