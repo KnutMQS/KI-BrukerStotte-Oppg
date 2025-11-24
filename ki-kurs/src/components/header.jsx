@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header>
+    <header className="sticky top-0 z-50 w-full">
       <div className="flex justify-center items-center text-5xl bg-linear-to-r from-indigo-500 to-indigo-950 border-b-2 border-border pb-4 pt-2 font-mono font-extrabold text-shadow-lg/60">
         <h1>KI Oppgave</h1>
       </div>
