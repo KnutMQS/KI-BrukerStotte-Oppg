@@ -8,7 +8,7 @@ function Header() {
       </div>
       <nav className="flex justify-around mx-auto max-w-3xl items-center font-mono border-2 border-t-0 border-border py-2 bg-button-bg">
         <Link className="hover:text-blue-400" to="/">
-          Home
+          Hjem
         </Link>
         <Link className="hover:text-blue-400" to="/pros">
           Pros med KI
@@ -17,10 +17,10 @@ function Header() {
           Cons med KI
         </Link>
         <Link className="hover:text-blue-400" to="/society">
-          AI i Samfunnet
+          KI i Samfunnet
         </Link>
         <Link className="hover:text-blue-400" to="/it-industry">
-          AI i IT-Bransjen
+          KI i IT-Bransjen
         </Link>
       </nav>
     </header>
