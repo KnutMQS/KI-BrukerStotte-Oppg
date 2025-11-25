@@ -3,7 +3,7 @@ import bgImage from "../assets/AIcomedy.webp";
 function Home() {
   return (
     <main>
-      <div className="flex items-center max-w-48 rounded-4xl my-3 mx-auto border-2 justify-center text-3xl font-mono py-4">
+      <div className="flex items-center max-w-48 rounded-4xl my-9 mx-auto border-2 justify-center text-3xl font-mono py-3">
         <h2>Lær om KI</h2>
       </div>
       <div className="flex justify-between space-x-3 mx-5">
