@@ -4,6 +4,8 @@ import Header from "./components/header";
 import Home from "./pages/home";
 import Pros from "./pages/pros";
 import Cons from "./pages/cons";
+import Society from "./pages/society";
+import ItIndustry from "./pages/itindustry";
 
 //Checks for system theme
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/pros" element={<Pros />} />
         <Route path="/cons" element={<Cons />} />
+        <Route path="/society" element={<Society />} />
+        <Route path="/it-industry" element={<ItIndustry />} />
       </Routes>
     </Router>
   );
