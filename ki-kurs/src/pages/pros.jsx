@@ -1,7 +1,7 @@
 function Pros() {
   return (
     <>
-      <div className="flex items-center justify-center text-3xl py-4">
+      <div className="flex items-center max-w-fit rounded-4xl my-9 mx-auto border-2 justify-center text-3xl font-mono p-3">
         <h1>Fordeler med KI</h1>
       </div>
       <div className="space-y-7">

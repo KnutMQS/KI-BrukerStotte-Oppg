@@ -1,9 +1,9 @@
-import bgImage from "../assets/AIcomedy.webp";
+import AIcomedy from "../assets/AIcomedy.webp";
 
 function Home() {
   return (
-    <main>
-      <div className="flex items-center max-w-48 rounded-4xl my-9 mx-auto border-2 justify-center text-3xl font-mono py-3">
+    <>
+      <div className="flex items-center max-w-fit rounded-4xl my-9 mx-auto border-2 justify-center text-3xl font-mono p-3">
         <h2>Lær om KI</h2>
       </div>
       <div className="flex justify-between space-x-3 mx-5">
@@ -16,12 +16,12 @@ function Home() {
           cumque, error accusamus beatae adipisci sapiente provident blanditiis?
         </p>
         <img
-          src={bgImage}
-          alt=""
-          className="max-h-130 rounded-4xl border-2 border-indigo-600"
+          src={AIcomedy}
+          alt="Robot in disguise"
+          className="max-h-130 max-w-[50%] rounded-4xl border-2 border-indigo-600"
         />
       </div>
-    </main>
+    </>
   );
 }
 
