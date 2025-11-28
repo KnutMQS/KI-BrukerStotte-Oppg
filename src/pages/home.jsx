@@ -14,11 +14,6 @@ function Home() {
           utfordringer teknologien skaper, og hvilken rolle den spiller i
           samfunnet og IT-bransjen.
         </p>
-        {/*  <img
-          src={AIcomedy}
-          alt="Robot in disguise"
-          className="max-h-130 max-w-[50%] rounded-4xl border-2 border-indigo-600"
-        /> */}
       </div>
     </>
   );
